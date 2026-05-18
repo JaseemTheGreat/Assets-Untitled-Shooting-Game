@@ -67,5 +67,5 @@ Enemy data is stored using the following format:
 # Notes
 
 - Array order matters.
-- Changing the order of values may break compatibility with the game importer.
+- Changing the order of values ***WILL*** break compatibility with the game importer.
 - Some files may include additional values for special enemy behaviours.
