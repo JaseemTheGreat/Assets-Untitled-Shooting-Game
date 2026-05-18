@@ -8,6 +8,8 @@
   Assets and data files for Untitled Shooting Game
 </p>
 
+---
+
 This repository contains the assets and data files used for **Untitled Shooting Game**, a project created by [JaseemTheGreat](https://github.com/JaseemTheGreat)
 
 ## General Format
