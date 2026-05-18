@@ -74,6 +74,73 @@ Enemy data is stored using the following format:
 
 ---
 
+# Gun Costumes
+
+Directory:
+`/Costumes/Guns/`
+[Direct Link to Gun Costumes](./Costumes/Guns/)
+
+Gun costumes are stored as Data URIs corresponding to their image.  
+These are used by the game importer to automatically recognise weapon sprites.
+
+Although gun costumes only contain a single object, they are still stored in arrays to maintain consistency with the rest of the asset system.
+
+## Format
+
+```js
+[
+  "guncostume"
+]
+```
+
+---
+
+# Gun Data
+
+Directory:
+`/Data/Guns/`
+[Direct Link to Gun Data](./Data/Guns/)
+
+Gun data is stored using the following format:
+
+```js
+[
+  "GunName",
+  "GunRange",
+  "GunDMG",
+  "GunRPM",
+  "BulletSpeed",
+  "GunRecoil",
+  "GunOffset",
+  "GunType",
+  "BulletSize",
+  "MagazineSize"
+]
+```
+
+## Value Descriptions
+
+| Value | Description |
+|---|---|
+| `GunName` | Name of the weapon |
+| `GunRange` | Maximum range of the weapon |
+| `GunDMG` | Damage dealt per shot |
+| `GunRPM` | Fire rate in rounds per minute |
+| `BulletSpeed` | Speed of the projectile |
+| `GunRecoil` | Amount of recoil produced when firing |
+| `GunOffset` | Offset from the centre of the arm sprite |
+| `GunType` | Weapon category (`pistol`, `rifle`, `sniper`, `shotgun`, etc.) |
+| `BulletSize` | Size of the projectile |
+| `MagazineSize` | Maximum ammo capacity per magazine |
+
+---
+
+# Notes
+
+- Array order matters.
+- Changing the order of values ***WILL*** break compatibility with the game importer.
+- Some files may include additional values for special enemy behaviours.
+
 # Notes
 
 - Array order matters.
