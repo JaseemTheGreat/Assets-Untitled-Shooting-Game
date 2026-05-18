@@ -1,6 +1,6 @@
 # Assets — Untitled Shooting Game
 
-This repository contains the assets and data files used for **Untitled Shooting Game**, a Game developed by [Me, JaseemJH](https://github.com/JaseemTheGreat).
+This repository contains the assets and data files used for **Untitled Shooting Game**, a project created by [JaseemTheGreat](https://github.com/JaseemTheGreat)
 
 ## General Format
 
