@@ -2,6 +2,12 @@
   <img src="./logo.png" width="220">
 </p>
 
+<h1 align="center">Assets — Untitled Shooting Game</h1>
+
+<p align="center">
+  Assets and data files for Untitled Shooting Game
+</p>
+
 # Assets — Untitled Shooting Game
 
 This repository contains the assets and data files used for **Untitled Shooting Game**, a project created by [JaseemTheGreat](https://github.com/JaseemTheGreat)
