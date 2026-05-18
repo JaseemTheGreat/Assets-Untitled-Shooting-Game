@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" width="220">
+  <img src="./logo.png" width="700">
 </p>
 
 <h1 align="center">Assets — Untitled Shooting Game</h1>
