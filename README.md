@@ -140,9 +140,3 @@ Gun data is stored using the following format:
 - Array order matters.
 - Changing the order of values ***WILL*** break compatibility with the game importer.
 - Some files may include additional values for special enemy behaviours.
-
-# Notes
-
-- Array order matters.
-- Changing the order of values ***WILL*** break compatibility with the game importer.
-- Some files may include additional values for special enemy behaviours.
