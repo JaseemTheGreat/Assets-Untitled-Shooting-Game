@@ -1,6 +1,6 @@
 # Assets — Untitled Shooting Game
 
-This repository contains the assets and data files used for **Untitled Shooting Game**.
+This repository contains the assets and data files used for **Untitled Shooting Game**, a Game developed by [Me, JaseemJH]([(https://github.com/JaseemTheGreat)](https://github.com/JaseemTheGreat)).
 
 ## General Format
 
@@ -12,6 +12,7 @@ Most files use arrays `[]` for data storage and parsing.
 
 Directory:
 `/Costumes/Enemies/`
+[Direct Link to Enemy Costumes](./Costumes/Enemies/)
 
 Each enemy contains a Data URI corresponding to its image.  
 This allows the game to automatically recognise and import enemy sprites.
@@ -35,6 +36,7 @@ Additional array entries may correspond to extra enemy abilities or animations.
 
 Directory:
 `/Data/Enemies/`
+[Direct Link to Enemy Data](./Data/Enemies/)
 
 Enemy data is stored using the following format:
 
@@ -58,7 +60,7 @@ Enemy data is stored using the following format:
 | `speed` | Enemy movement speed |
 | `turnrate` | Rotation / turning speed |
 | `defense` | Damage resistance value |
-| `boss-status` | Whether the enemy is a boss (`true` or `false`) |
+| `boss-status` | Whether the enemy is a boss (`0` or `1`) |
 
 ---
 
