@@ -135,6 +135,57 @@ Gun data is stored using the following format:
 
 ---
 
+# Sounds
+
+Directory:
+`/Sounds/Guns/File/`
+[Direct Link to Sound Files](./Sounds/Guns/File/)
+
+This directory contains the raw audio files used for weapon sound effects.
+
+Supported formats may include:
+
+- `.mp3`
+- `.wav`
+
+These files contain audio such as:
+
+- Firing sounds
+- Reload sounds
+- Other weapon effects
+
+---
+
+# Gun Sounds
+
+Directory:
+`/Sounds/Guns/Link/`
+[Direct Link to Gun Sound Links](./Sounds/Guns/Link/)
+
+Gun sound link files are stored as `.dat` files containing a direct Raw GitHub URL to the corresponding sound file.
+
+This system exists because Scratch cannot easily read and import `.mp3` or `.wav` files directly from normal GitHub file pages. Using Raw GitHub links allows the game importer to access the audio files more reliably.
+
+Although these files only contain a single value, they are still stored using arrays to maintain consistency throughout the repository.
+
+## Format
+
+```js
+[
+  "rawgithubsoundurl"
+]
+```
+
+Example:
+
+```js
+[
+  "https://raw.githubusercontent.com/user/repository/main/Sounds/Guns/File/PistolFire.mp3"
+]
+```
+
+---
+
 # Notes
 
 - Array order matters.
