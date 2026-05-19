@@ -148,11 +148,7 @@ Supported formats may include:
 - `.mp3`
 - `.wav`
 
-These files contain audio such as:
-
-- Firing sounds
-- Reload sounds
-- Other weapon effects
+These files contain audio firing sounds, reload and other effects are handled within the game itself
 
 ---
 
