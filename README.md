@@ -108,15 +108,17 @@ Gun data is stored using the following format:
 ```js
 [
   "GunName",
-  "GunRange",
-  "GunDMG",
-  "GunRPM",
-  "BulletSpeed",
-  "GunRecoil",
-  "GunOffset",
-  "GunType",
-  "BulletSize",
-  "MagazineSize"
+  {
+    range: "GunRange",
+    damage: "GunDMG",
+    rpm: "GunRPM",
+    bulletSpeed: "BulletSpeed",
+    recoil: "GunRecoil",
+    offset: "GunOffset",
+    type: "GunType",
+    bulletSize: "BulletSize",
+    magazineSize: "MagazineSize"
+  }
 ]
 ```
 
@@ -125,15 +127,15 @@ Gun data is stored using the following format:
 | Value | Description |
 |---|---|
 | `GunName` | Name of the weapon |
-| `GunRange` | Maximum range of the weapon |
-| `GunDMG` | Damage dealt per shot |
-| `GunRPM` | Fire rate in rounds per minute |
-| `BulletSpeed` | Speed of the projectile |
-| `GunRecoil` | Amount of recoil produced when firing |
-| `GunOffset` | Offset from the centre of the arm sprite |
-| `GunType` | Weapon category (`pistol`, `rifle`, `sniper`, `shotgun`, etc.) |
-| `BulletSize` | Size of the projectile |
-| `MagazineSize` | Maximum ammo capacity per magazine |
+| `range` | Maximum range of the weapon |
+| `damage` | Damage dealt per shot |
+| `rpm` | Fire rate in rounds per minute |
+| `bulletSpeed` | Speed of the projectile |
+| `recoil` | Amount of recoil produced when firing |
+| `offset` | Offset from the centre of the arm sprite |
+| `type` | Weapon category (`pistol`, `rifle`, `sniper`, `shotgun`, etc.) |
+| `bulletSize` | Size of the projectile |
+| `magazineSize` | Maximum ammo capacity per magazine |
 
 ---
 
@@ -162,7 +164,7 @@ Directory:
 
 Gun sound link files are stored as `.dat` files containing a direct Raw GitHub URL to the corresponding sound file.
 
-This system exists because Scratch cannot easily read and import `.mp3` or `.wav` files directly from normal GitHub file pages. Using Raw GitHub links allows the game importer to access the audio files more reliably.
+This system exists because Turbowarp cannot easily read and import `.mp3` or `.wav` files directly from normal GitHub files. Using Raw GitHub links allows the game importer to access the audio files more reliably.
 
 Although these files only contain a single value, they are still stored using arrays to maintain consistency throughout the repository.
 
