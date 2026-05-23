@@ -72,7 +72,7 @@ Enemy data is stored using the following format:
 | `speed` | Enemy movement speed |
 | `turnrate` | Rotation / turning speed |
 | `defense` | Damage resistance value |
-| `boss-status` | Whether the enemy is a boss (`0` or `1`) |
+| `bossStatus` | Whether the enemy is a boss (`0` or `1`) |
 
 ---
 
