@@ -1,1 +1,10 @@
-["EliteNormal","70","7","22","0","0"]
+[
+  "EliteNormal",
+  {
+    "hp": "70",
+    "speed": "7",
+    "turnrate": "22",
+    "defense": "0",
+    "bossStatus": "0"
+  }
+]
