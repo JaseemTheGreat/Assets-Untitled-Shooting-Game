@@ -53,11 +53,13 @@ Enemy data is stored using the following format:
 ```js
 [
   "name",
-  {hp: "hp",
-  speed: "speed",
-  turnrate: "turnrate",
-  defense: "defense",
-  boss-status:"boss-status"}
+  {
+    hp: "hp",
+    speed: "speed",
+    turnrate: "turnrate",
+    defense: "defense",
+    bossStatus: "boss-status"
+  }
 ]
 ```
 
