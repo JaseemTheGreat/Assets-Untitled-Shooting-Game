@@ -39,7 +39,49 @@ The game importer uses these values to automatically identify and load sprites.
 ]
 ```
 
-Additional entries may exist for special animations or abilities.
+Additional entries may exist for special animations or other abilities.
+
+---
+
+# Enemy Costumes Identifiers
+
+**Directory:**  
+`/CostumesIdentifiers/Enemies/`
+
+[Enemy Costumes Identifiers Folder](./CostumesIdentifiers/Enemies/)
+
+Enemy costume files contain suffixes corresponding to enemy images.  
+The game importer uses these values to automatically identify and load the images with the correct names.
+
+## Format
+
+```js
+[
+  "",
+  "-Stun",
+  "-Punch-1",
+  "-Punch-2"
+]
+```
+
+
+So if paired with the Normal in the game, its costumes' will be named:
+
+```text
+Normal,
+Normal-Stun,
+Normal-Punch-1,
+Normal-Punch-2
+```
+
+| Value | Description |
+|---------|-------------|
+| `""` | It represents the default costume's name (which has no suffixes) |
+| `-Stun` | It represents the Stunned costume's name |
+| `-Punch-1` | It represents the suffix of first frame of the costume's punch (which has no suffixes) |
+| `-Punch-2` | Do I need to say more? |
+
+Additional entries may exist for special animations or other abilities.
 
 ---
 
