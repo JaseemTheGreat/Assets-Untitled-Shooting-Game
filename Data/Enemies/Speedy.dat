@@ -1,1 +1,10 @@
-["Speedy","25","9","25","0","0"]
+[
+  "Speedy",
+  {
+    "hp": 25,
+    "speed": 9,
+    "turnrate": 25,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
