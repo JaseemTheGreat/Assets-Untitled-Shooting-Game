@@ -187,5 +187,5 @@ Example:
 # Notes
 
 - Array order matters.
-- Changing the order of values ***WILL*** break compatibility with the game importer.
+- Changing the order of values ***WILL*** break compatibility with the game importer. However if the array has a JSON objects ({hi: "hi}), order will not matter, as LONG as you use the correct values, only the array's order itself needs to be in proper order.
 - Some files may include additional values for special enemy behaviours.
