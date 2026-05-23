@@ -1,14 +1,14 @@
 [
   "Bat",
   {
-    range: 8,
-    dmg: 35,
-    rpm: 45,
-    bulletSpeed: 8,
-    recoil: -45,
-    offset: 35,
-    type: "melee",
-    bulletSize: 170,
-    magazineSize: 999
+    "range":8,
+    "dmg":35,
+    "rpm":45,
+    "bulletSpeed":8,
+    "recoil":-45,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":170,
+    "magazineSize":999
   }
 ]
