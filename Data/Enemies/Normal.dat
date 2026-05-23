@@ -1,1 +1,10 @@
-["Normal","40","6","20","0","0"]
+[
+  "Normal",
+  {
+    "hp": "40",
+    "speed": "6",
+    "turnrate": "20",
+    "defense": "0",
+    "bossStatus": "0"
+  }
+]
