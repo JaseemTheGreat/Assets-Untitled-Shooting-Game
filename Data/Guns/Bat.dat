@@ -2,7 +2,7 @@
   "Bat",
   {
     range: 8,
-    damage: 35,
+    dmg: 35,
     rpm: 45,
     bulletSpeed: 8,
     recoil: -45,
