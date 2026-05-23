@@ -5,50 +5,52 @@
 <h1 align="center">Assets — Untitled Shooting Game</h1>
 
 <p align="center">
-  Assets and data files for Untitled Shooting Game
+  Assets and data files used by Untitled Shooting Game
 </p>
 
 ---
 
-This repository contains the assets and data files used for **Untitled Shooting Game**, a project created by [JaseemTheGreat](https://github.com/JaseemTheGreat)
+This repository contains the assets and data files used for **Untitled Shooting Game**, created by [JaseemTheGreat](https://github.com/JaseemTheGreat).
 
 ## General Format
 
-Most files use arrays `[]` for data storage and parsing.
+Most files in this repository use arrays (`[]`) for data storage and parsing.
 
 ---
 
 # Enemy Costumes
 
-Directory:
+**Directory:**  
 `/Costumes/Enemies/`
-[Direct Link to Enemy Costumes](./Costumes/Enemies/)
 
-Each enemy contains a Data URI corresponding to its image.  
-This allows the game to automatically recognise and import enemy sprites.
+[Enemy Costumes Folder](./Costumes/Enemies/)
+
+Enemy costume files contain Data URIs corresponding to enemy images.  
+The game importer uses these values to automatically identify and load sprites.
 
 ## Format
 
 ```js
 [
-  "defaultcostume",
-  "stuncostume",
-  "punch1costume",
-  "punch2costume"
+  "defaultCostume",
+  "stunCostume",
+  "punch1Costume",
+  "punch2Costume"
 ]
 ```
 
-Additional array entries may correspond to extra enemy abilities or animations.
+Additional entries may exist for special animations or abilities.
 
 ---
 
 # Enemy Data
 
-Directory:
+**Directory:**  
 `/Data/Enemies/`
-[Direct Link to Enemy Data](./Data/Enemies/)
 
-Enemy data is stored using the following format:
+[Enemy Data Folder](./Data/Enemies/)
+
+Enemy data uses the following structure:
 
 ```js
 [
@@ -66,32 +68,32 @@ Enemy data is stored using the following format:
 ## Value Descriptions
 
 | Value | Description |
-|---|---|
+|---------|-------------|
 | `EnemyName` | Enemy name |
-| `hp` | Enemy health points |
-| `speed` | Enemy movement speed |
-| `turnrate` | Rotation / turning speed |
+| `hp` | Health points |
+| `speed` | Movement speed |
+| `turnrate` | Rotation speed |
 | `defense` | Damage resistance value |
-| `bossStatus` | Whether the enemy is a boss (`0` or `1`) |
+| `bossStatus` | Boss state (`0 = false`, `1 = true`) |
 
 ---
 
 # Gun Costumes
 
-Directory:
+**Directory:**  
 `/Costumes/Guns/`
-[Direct Link to Gun Costumes](./Costumes/Guns/)
 
-Gun costumes are stored as Data URIs corresponding to their image.  
-These are used by the game importer to automatically recognise weapon sprites.
+[Gun Costumes Folder](./Costumes/Guns/)
 
-Although gun costumes only contain a single object, they are still stored in arrays to maintain consistency with the rest of the asset system.
+Gun costume files contain Data URIs corresponding to weapon images.
+
+Although these only contain one value, they remain stored inside arrays to keep the asset format consistent across the project.
 
 ## Format
 
 ```js
 [
-  "guncostume"
+  "gunCostume"
 ]
 ```
 
@@ -99,25 +101,26 @@ Although gun costumes only contain a single object, they are still stored in arr
 
 # Gun Data
 
-Directory:
+**Directory:**  
 `/Data/Guns/`
-[Direct Link to Gun Data](./Data/Guns/)
 
-Gun data is stored using the following format:
+[Gun Data Folder](./Data/Guns/)
+
+Gun data uses the following structure:
 
 ```js
 [
   "GunName",
   {
-    "range": "example-value",
-    "dmg": "example-value",
-    "rpm": "example-value",
-    "bulletSpeed": "example-value",
-    "recoil": "example-value",
-    "offset": "example-value",
-    "type": "example-value",
-    "bulletSize": "example-value",
-    "magazineSize": "example-value"
+    "range": "value",
+    "dmg": "value",
+    "rpm": "value",
+    "bulletSpeed": "value",
+    "recoil": "value",
+    "offset": "value",
+    "type": "value",
+    "bulletSize": "value",
+    "magazineSize": "value"
   }
 ]
 ```
@@ -125,54 +128,56 @@ Gun data is stored using the following format:
 ## Value Descriptions
 
 | Value | Description |
-|---|---|
-| `GunName` | Name of the weapon |
-| `range` | Maximum range of the weapon |
-| `damage` | Damage dealt per shot |
-| `rpm` | Fire rate in rounds per minute |
-| `bulletSpeed` | Speed of the projectile |
-| `recoil` | Amount of recoil produced when firing |
-| `offset` | Offset from the centre of the arm sprite |
-| `type` | Weapon category (`pistol`, `rifle`, `sniper`, `shotgun`, etc.) |
-| `bulletSize` | Size of the projectile |
-| `magazineSize` | Maximum ammo capacity per magazine |
+|---------|-------------|
+| `GunName` | Weapon name |
+| `range` | Maximum weapon range |
+| `dmg` | Damage dealt per shot |
+| `rpm` | Fire rate (rounds per minute) |
+| `bulletSpeed` | Projectile speed |
+| `recoil` | Recoil amount |
+| `offset` | Offset from the center of the arm sprite |
+| `type` | Weapon type (`pistol`, `rifle`, `sniper`, `shotgun`, etc.) |
+| `bulletSize` | Projectile size |
+| `magazineSize` | Maximum ammo per magazine |
 
 ---
 
 # Sounds
 
-Directory:
+**Directory:**  
 `/Sounds/Guns/File/`
-[Direct Link to Sound Files](./Sounds/Guns/File/)
 
-This directory contains the raw audio files used for weapon sound effects.
+[Sound Files Folder](./Sounds/Guns/File/)
 
-Supported formats may include:
+Contains raw audio files used for weapon sound effects.
+
+Supported formats include:
 
 - `.mp3`
 - `.wav`
 
-These files contain audio firing sounds, reload and other effects are handled within the game itself
+These files store firing sounds only. Other sounds (reloads, effects, etc.) are handled internally by the game.
 
 ---
 
 # Gun Sounds
 
-Directory:
+**Directory:**  
 `/Sounds/Guns/Link/`
-[Direct Link to Gun Sound Links](./Sounds/Guns/Link/)
 
-Gun sound link files are stored as `.dat` files containing a direct Raw GitHub URL to the corresponding sound file.
+[Gun Sound Links Folder](./Sounds/Guns/Link/)
 
-This system exists because Turbowarp cannot easily read and import `.mp3` or `.wav` files directly from normal GitHub files. Using Raw GitHub links allows the game importer to access the audio files more reliably.
+Sound link files are stored as `.dat` files containing Raw GitHub URLs that point to the actual sound files.
 
-Although these files only contain a single value, they are still stored using arrays to maintain consistency throughout the repository.
+This system exists because Turbowarp cannot reliably import audio directly from standard GitHub file pages. Using Raw GitHub links allows the importer to access files more consistently.
+
+Even though these files only contain a single value, they are still stored in arrays to maintain consistency.
 
 ## Format
 
 ```js
 [
-  "rawgithubsoundurl"
+  "rawGithubSoundUrl"
 ]
 ```
 
@@ -189,5 +194,16 @@ Example:
 # Notes
 
 - Array order matters.
-- Changing the order of values ***WILL*** break compatibility with the game importer. However if the array has a JSON objects ({"hi": "hi}), order will not matter, as LONG as you use the correct values, only the array's order itself needs to be in proper order.
-- Some files may include additional values for special enemy behaviours.
+- Changing array order **will break compatibility** with the game importer.
+- Object key order does **not** matter:
+
+```js
+{
+  "hp": 50,
+  "speed": 5
+}
+```
+
+As long as the correct key names are used, objects can be ordered however you want.
+
+- Some files may contain additional values for special enemy behaviors or future features.
