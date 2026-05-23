@@ -110,7 +110,7 @@ Gun data is stored using the following format:
   "GunName",
   {
     range: "GunRange",
-    damage: "GunDMG",
+    dmg: "GunDMG",
     rpm: "GunRPM",
     bulletSpeed: "BulletSpeed",
     recoil: "GunRecoil",
