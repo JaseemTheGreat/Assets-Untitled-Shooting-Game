@@ -52,13 +52,13 @@ Enemy data is stored using the following format:
 
 ```js
 [
-  "name",
+  "EnemyName",
   {
-    hp: "hp",
-    speed: "speed",
-    turnrate: "turnrate",
-    defense: "defense",
-    bossStatus: "boss-status"
+    "hp": "hp",
+    "speed": "speed",
+    "turnrate": "turnrate",
+    "defense": "defense",
+    "bossStatus": "boss-status"
   }
 ]
 ```
@@ -67,7 +67,7 @@ Enemy data is stored using the following format:
 
 | Value | Description |
 |---|---|
-| `name` | Enemy name |
+| `EnemyName` | Enemy name |
 | `hp` | Enemy health points |
 | `speed` | Enemy movement speed |
 | `turnrate` | Rotation / turning speed |
@@ -109,15 +109,15 @@ Gun data is stored using the following format:
 [
   "GunName",
   {
-    range: "GunRange",
-    dmg: "GunDMG",
-    rpm: "GunRPM",
-    bulletSpeed: "BulletSpeed",
-    recoil: "GunRecoil",
-    offset: "GunOffset",
-    type: "GunType",
-    bulletSize: "BulletSize",
-    magazineSize: "MagazineSize"
+    "range": "example-value",
+    "dmg": "example-value",
+    "rpm": "example-value",
+    "bulletSpeed": "example-value",
+    "recoil": "example-value",
+    "offset": "example-value",
+    "type": "example-value",
+    "bulletSize": "example-value",
+    "magazineSize": "example-value"
   }
 ]
 ```
@@ -180,7 +180,7 @@ Example:
 
 ```js
 [
-  "https://raw.githubusercontent.com/user/repository/main/Sounds/Guns/File/PistolFire.mp3"
+  "https://raw.githubusercontent.com/user/repository/main/Sounds/Guns/File/Bat.mp3"
 ]
 ```
 
@@ -189,5 +189,5 @@ Example:
 # Notes
 
 - Array order matters.
-- Changing the order of values ***WILL*** break compatibility with the game importer. However if the array has a JSON objects ({hi: "hi}), order will not matter, as LONG as you use the correct values, only the array's order itself needs to be in proper order.
+- Changing the order of values ***WILL*** break compatibility with the game importer. However if the array has a JSON objects ({"hi": "hi}), order will not matter, as LONG as you use the correct values, only the array's order itself needs to be in proper order.
 - Some files may include additional values for special enemy behaviours.
