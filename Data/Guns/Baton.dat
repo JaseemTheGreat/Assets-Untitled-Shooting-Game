@@ -1,1 +1,14 @@
-["Baton",5,25,70,7,-15,35,"melee",150,0]
+[
+  "Baton",
+  {
+    "range":5,
+    "dmg":25,
+    "rpm":70,
+    "bulletSpeed":7,
+    "recoil":-15,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":150,
+    "magazineSize":999
+  }
+]
