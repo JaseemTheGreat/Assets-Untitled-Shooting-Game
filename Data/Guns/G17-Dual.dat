@@ -1,1 +1,14 @@
-["G17-Dual",60,7,200,10,15,35,"pistol-dual",100,36]
+[
+  "G17-Dual",
+  {
+    "range":60,
+    "dmg":7,
+    "rpm":200,
+    "bulletSpeed":10,
+    "recoil":15,
+    "offset":35,
+    "type": "pistol-dual",
+    "bulletSize":100,
+    "magazineSize":36
+  }
+]
