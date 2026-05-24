@@ -1,0 +1,14 @@
+[
+  "Upgraded-M16A1",
+  {
+    "range":83,
+    "dmg":16,
+    "rpm":950,
+    "bulletSpeed":10,
+    "recoil":22,
+    "offset":35,
+    "type": "rifle",
+    "bulletSize":110,
+    "magazineSize":45
+  }
+]
