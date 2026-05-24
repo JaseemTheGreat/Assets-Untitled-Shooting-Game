@@ -1,0 +1,14 @@
+[
+  "CombatKnife",
+  {
+    "range":4,
+    "dmg":30,
+    "rpm":150,
+    "bulletSpeed":7,
+    "recoil":-25,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":90,
+    "magazineSize":999
+  }
+]
