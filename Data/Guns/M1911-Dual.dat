@@ -1,0 +1,14 @@
+[
+  "M1911-Dual",
+  {
+    "range":55,
+    "dmg":8,
+    "rpm":110,
+    "bulletSpeed":12,
+    "recoil":17,
+    "offset":35,
+    "type": "pistol-dual",
+    "bulletSize":100,
+    "magazineSize":16
+  }
+]
