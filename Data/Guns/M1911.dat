@@ -1,0 +1,14 @@
+[
+  "M1911",
+  {
+    "range":55,
+    "dmg":8,
+    "rpm":50,
+    "bulletSpeed":12,
+    "recoil":17,
+    "offset":35,
+    "type": "pistol",
+    "bulletSize":100,
+    "magazineSize":8
+  }
+]
