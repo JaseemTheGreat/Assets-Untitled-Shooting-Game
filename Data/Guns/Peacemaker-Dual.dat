@@ -1,0 +1,14 @@
+[
+  "Peacemaker",
+  {
+    "range":65,
+    "dmg":11,
+    "rpm":120,
+    "bulletSpeed":11,
+    "recoil":16,
+    "offset":35,
+    "type": "pistol-revolver",
+    "bulletSize":100,
+    "magazineSize":12
+  }
+]
