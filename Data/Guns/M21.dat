@@ -1,0 +1,14 @@
+[
+  "M21",
+  {
+    "range":999,
+    "dmg":28,
+    "rpm":135,
+    "bulletSpeed":10,
+    "recoil":25,
+    "offset":35,
+    "type": "sniper",
+    "bulletSize":85,
+    "magazineSize":10
+  }
+]
