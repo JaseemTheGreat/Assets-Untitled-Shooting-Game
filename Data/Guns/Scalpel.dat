@@ -1,0 +1,14 @@
+[
+  "Scalpel",
+  {
+    "range":3,
+    "dmg":10,
+    "rpm":180,
+    "bulletSpeed":6,
+    "recoil":-25,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":85,
+    "magazineSize":999
+  }
+]
