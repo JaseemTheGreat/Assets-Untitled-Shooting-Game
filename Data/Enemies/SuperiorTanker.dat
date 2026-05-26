@@ -1,0 +1,10 @@
+[
+  "SuperiorTanker",
+  {
+    "hp": "100",
+    "speed": "4.5",
+    "turnrate": "20",
+    "defense": "15",
+    "bossStatus": "0"
+  }
+]
