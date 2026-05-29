@@ -78,7 +78,7 @@ Normal-Punch-2
 |---------|-------------|
 | `""` | It represents the default costume's name (which has no suffixes) |
 | `-Stun` | It represents the Stunned costume's name |
-| `-Punch-1` | It represents the suffix of first frame of the costume's punch (which has no suffixes) |
+| `-Punch-1` | It represents the suffix of first frame of the costume's punch |
 | `-Punch-2` | Do I need to say more? |
 
 Additional entries may exist for special animations or other abilities.
@@ -187,27 +187,23 @@ Gun data uses the following structure:
 # Sounds
 
 **Directory:**  
-`/Sounds/Guns/File/`
+`/Sounds/[random directory]/File/`
 
-[Sound Files Folder](./Sounds/Guns/File/)
-
-Contains raw audio files used for weapon sound effects.
+Contains raw audio files used for sound effects and music.
 
 Supported formats include:
 
 - `.mp3`
 - `.wav`
 
-These files store firing sounds only. Other sounds (reloads, effects, etc.) are handled internally by the game.
+These files store firing sounds and boss music only. Other sounds (reloads, effects, etc.) are handled internally by the game.
 
 ---
 
-# Gun Sounds
+# Sounds Links
 
 **Directory:**  
-`/Sounds/Guns/Link/`
-
-[Gun Sound Links Folder](./Sounds/Guns/Link/)
+`/Sounds/[random directory]/Link/`
 
 Sound link files are stored as `.dat` files containing Raw GitHub URLs that point to the actual sound files.
 
@@ -247,5 +243,13 @@ Example:
 ```
 
 As long as the correct key names are used, objects can be ordered however you want.
+
+```js
+{
+  "speed": 5,
+  "hp": 50
+}
+```
+
 
 - Some files may contain additional values for special enemy behaviors or future features.
