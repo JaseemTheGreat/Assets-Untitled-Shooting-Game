@@ -1,0 +1,10 @@
+[
+  "Necromancer",
+  {
+    "hp": 250,
+    "speed": 4,
+    "turnrate": 19,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
