@@ -189,7 +189,7 @@ Gun data uses the following structure:
 **Directory:**  
 `/Sounds/[random directory]/File/`
 
-Contains raw audio files used for sound effects and music.
+Contains raw Data URI audio files used for sound effects and music.
 
 Supported formats include:
 
@@ -197,35 +197,6 @@ Supported formats include:
 - `.wav`
 
 These files store firing sounds and boss music only. Other sounds (reloads, effects, etc.) are handled internally by the game.
-
----
-
-# Sounds Links
-
-**Directory:**  
-`/Sounds/[random directory]/Link/`
-
-Sound link files are stored as `.dat` files containing Raw GitHub URLs that point to the actual sound files.
-
-This system exists because Turbowarp cannot reliably import audio directly from standard GitHub file pages. Using Raw GitHub links allows the importer to access files more consistently.
-
-Even though these files only contain a single value, they are still stored in arrays to maintain consistency.
-
-## Format
-
-```js
-[
-  "rawGithubSoundUrl"
-]
-```
-
-Example:
-
-```js
-[
-  "https://raw.githubusercontent.com/user/repository/main/Sounds/Guns/File/Bat.mp3"
-]
-```
 
 ---
 
