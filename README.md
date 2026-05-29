@@ -191,10 +191,10 @@ Gun data uses the following structure:
 
 Contains raw Data URI audio files used for sound effects and music.
 
-Supported formats include:
-
-- `.mp3`
-- `.wav`
+For example:
+```js
+["dataURIofaudio"]
+```
 
 These files store firing sounds and boss music only. Other sounds (reloads, effects, etc.) are handled internally by the game.
 
