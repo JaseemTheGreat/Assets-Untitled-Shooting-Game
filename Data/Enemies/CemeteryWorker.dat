@@ -1,1 +1,10 @@
-["Slash", [300, 40, 30], "Summon", ["CemeteryWorker", 15, 40, "each-anim-summon"]]
+[
+  "CemeteryWorker",
+  {
+    "hp": 5500,
+    "speed": 3,
+    "turnrate": 17.5,
+    "defense": 5,
+    "bossStatus": 1
+  }
+]
