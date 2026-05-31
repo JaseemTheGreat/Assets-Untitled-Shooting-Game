@@ -187,7 +187,7 @@ Gun data uses the following structure:
 # Sounds
 
 **Directory:**  
-`/Sounds/[random directory]/File/`
+`/Sounds/[random directory]`
 
 Contains raw Data URI audio files used for sound effects and music.
 
@@ -197,6 +197,27 @@ For example:
 ```
 
 These files store firing sounds and boss music only. Other sounds (reloads, effects, etc.) are handled internally by the game.
+
+---
+
+# Wave Spawning
+
+**Directory:**  
+`/Gamemode/[GamemodeName]/`
+
+Wave spawning data uses the following structure:
+
+```js
+[["enemy1", "enemyamount", "enemyspawnspeed"], ["enemy2", "enemyamount", "enemyspawnspeed"]]
+```
+
+## Value Descriptions
+
+| Value | Description |
+|---------|-------------|
+| `enemy1` & `enemy2` | Name of Enemy |
+| `enemyamount` | The amount of enemies that spawn per array (usually an integer like `1, 2, 3`) |
+| `enemyspawnspeed` | The speed the enemies spawn (usually a float like `0.15, 0.5, 1.5`) |
 
 ---
 
