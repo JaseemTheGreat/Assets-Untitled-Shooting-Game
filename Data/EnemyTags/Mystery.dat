@@ -1,8 +1,6 @@
 {
   "deathtag": [
-    ["Explosion",80,90]
+    ["Explode", [80, 20, 16]]
   ],
-  "effecttag": [
-    
-  ]
+  "effecttag": []
 }
