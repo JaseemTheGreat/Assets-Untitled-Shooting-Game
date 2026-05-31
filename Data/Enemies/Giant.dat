@@ -1,0 +1,10 @@
+[
+  "Giant",
+  {
+    "hp": 850,
+    "speed": 3.5,
+    "turnrate": 18,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
