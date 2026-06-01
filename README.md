@@ -140,7 +140,7 @@ These contain abilities the enemies can perform and the abilities data.
 | `["Punch", ["size", "dmg", "range"]]` | This is the usual ability most enemies use, the size of the punch shockwave, the damage and range is controlled by the second array |
 | `["Kick", ["size, "dmg", "range"]]` | basically like punch but much more faster |
 | `["Stomp", ["size", "dmg", "range"]]` | the Enemy raises their foot and get ready to stomp. |
-| `"Summon", ["CemeteryWorker", 15, 40, "each-anim-summon"]]` | Do I need to say more? |
+| `["Summon", ["Spawntable.dat", "amount", "Spawnrangefromabilitylocation", "typeofanim"]]` | Do I need to say more? |
 
 Additional entries may exist for special animations or other abilities.
 
