@@ -77,7 +77,7 @@ Normal-Punch-2
 | Value | Description |
 |---------|-------------|
 | `""` | It represents the default costume's name (which has no suffixes) |
-| `-Stun` | It represents the Stunned costume's name |
+| `-Stun` | It represents the Stunned costume's name (THIS COSTUME MAY NOT EXIST IF THE ENEMY HAS STUN RESIST) |
 | `-Punch-1` | It represents the suffix of first frame of the costume's punch |
 | `-Punch-2` | Do I need to say more? |
 
@@ -117,6 +117,32 @@ Enemy data uses the following structure:
 | `turnrate` | Rotation speed |
 | `defense` | Damage resistance value |
 | `bossStatus` | Boss state (`0 = false`, `1 = true`) |
+
+---
+
+# Enemy Abilities
+
+**Directory:**  
+`/Data/EnemiesAbilities/`
+
+[Enemy Abilities Folder](./Data/EnemiesAbilities/)
+
+These contain abilities the enemies can perform and the abilities data.
+
+## Format
+
+```js
+["abilityname"[abilitydata]]
+```
+
+| Abilities | Description |
+|---------|-------------|
+| `["Punch", ["size", "dmg", "range"]]` | This is the usual ability most enemies use, the size of the punch shockwave, the damage and range is controlled by the second array |
+| `["Kick", ["size, "dmg", "range"]]` | basically like punch but much more faster |
+| `["Stomp", ["size", "dmg", "range"]]` | the Enemy raises their foot and get ready to stomp. |
+| `"Summon", ["CemeteryWorker", 15, 40, "each-anim-summon"]]` | Do I need to say more? |
+
+Additional entries may exist for special animations or other abilities.
 
 ---
 
