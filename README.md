@@ -139,8 +139,8 @@ These contain abilities the enemies can perform and the abilities data.
 |---------|-------------|
 | `["Punch", ["size", "dmg", "range"]]` | This is the usual ability most enemies use, the size of the punch shockwave, the damage and range is controlled by the second array |
 | `["Kick", ["size, "dmg", "range"]]` | basically like punch but much more faster |
-| `["Stomp", ["size", "dmg", "range"]]` | the Enemy raises their foot and get ready to stomp. |
-| `["Summon", ["Spawntable.dat", "amount", "Spawnrangefromabilitylocation", "typeofanim"]]` | Do I need to say more? |
+| `["Stomp", ["size", "dmg", "range", "frames"]]` | the Enemy raises their foot and get ready to stomp. frames represent the amount of costumes the ability has for that specific ability |
+| `["Summon", ["Spawntable", "amount", "Spawnrangefromabilitylocation", "chance", "typeofanim", "frames"]]` | You may pick the spawn tables from the spawn table, just pick the file name (NOT INCLUDING THE .DAT (ex. Necromancer.dat = Necromancer)) |
 
 Additional entries may exist for special animations or other abilities.
 
