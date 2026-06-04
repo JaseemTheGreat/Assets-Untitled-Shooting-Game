@@ -1,0 +1,10 @@
+[
+  "DummyShielder",
+  {
+    "hp": 50,
+    "speed": 2,
+    "turnrate": 13,
+    "defense": 5,
+    "bossStatus": 0
+  }
+]
