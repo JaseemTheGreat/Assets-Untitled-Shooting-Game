@@ -8,7 +8,7 @@
     "recoil":15,
     "offset":35,
     "type": "pistol",
-    "bulletSize":100,
+    "bulletSize":80,
     "magazineSize":18
   }
 ]
