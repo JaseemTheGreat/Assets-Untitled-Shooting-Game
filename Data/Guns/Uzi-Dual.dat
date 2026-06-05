@@ -1,0 +1,14 @@
+[
+  "Uzi-Dual",
+  {
+    "range":60,
+    "dmg":1,
+    "rpm":2400,
+    "bulletSpeed":11,
+    "recoil":14,
+    "offset":30,
+    "type": "machine-pistol-dual",
+    "bulletSize":90,
+    "magazineSize":50
+  }
+]
