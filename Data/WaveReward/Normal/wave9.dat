@@ -1,5 +1,5 @@
 {
   "HPHeal": 25,
-  "GunUnlock": ["Peacemaker-Dual"]
+  "GunUnlock": ["Peacemaker-Dual"],
   "Speech": ["error", "Have this, you'll need all the firepower next round..."]
 }
