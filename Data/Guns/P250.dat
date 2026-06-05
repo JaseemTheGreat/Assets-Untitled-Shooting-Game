@@ -1,0 +1,14 @@
+[
+  "P250",
+  {
+    "range":65,
+    "dmg":8,
+    "rpm":160,
+    "bulletSpeed":300,
+    "recoil":15,
+    "offset":35,
+    "type": "pistol",
+    "bulletSize":80,
+    "magazineSize":17
+  }
+]
