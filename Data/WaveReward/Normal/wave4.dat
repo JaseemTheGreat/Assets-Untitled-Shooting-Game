@@ -1,4 +1,4 @@
 {
   "HPHeal": 20,
-  "Speech": "Watch out, next wave has a combination of both the Normals and the Speedies"
+  "Speech": ["info", "Watch out, next wave has a combination of both the Normals and the Speedies"]
 }
