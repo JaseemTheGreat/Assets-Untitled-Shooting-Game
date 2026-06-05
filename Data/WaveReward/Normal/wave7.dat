@@ -1,3 +1,4 @@
 {
   "HPHeal": 20,
+  "Speech": ["warning", "Good job, one issue... there is a huge horde next wave, please be careful!"]
 }
