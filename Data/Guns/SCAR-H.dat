@@ -4,7 +4,7 @@
     "range":85,
     "dmg":20,
     "rpm":600,
-    "bulletSpeed":10,
+    "bulletSpeed":15,
     "recoil":28,
     "offset":35,
     "type": "rifle",
