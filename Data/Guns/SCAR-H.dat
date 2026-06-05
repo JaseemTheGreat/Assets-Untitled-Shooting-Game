@@ -1,0 +1,14 @@
+[
+  "SCAR-H",
+  {
+    "range":85,
+    "dmg":20,
+    "rpm":600,
+    "bulletSpeed":10,
+    "recoil":28,
+    "offset":35,
+    "type": "rifle",
+    "bulletSize":115,
+    "magazineSize":20
+  }
+]
