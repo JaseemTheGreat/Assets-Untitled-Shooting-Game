@@ -1,4 +1,4 @@
 {
   "HPHeal": 15,
-  "GunUnlock": "Peacemaker"
+  "GunUnlock": ["Peacemaker"]
 }
