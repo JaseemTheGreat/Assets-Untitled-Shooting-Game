@@ -1,0 +1,14 @@
+[
+  "Uzi",
+  {
+    "range":60,
+    "dmg":1,
+    "rpm":1200,
+    "bulletSpeed":11,
+    "recoil":12,
+    "offset":30,
+    "type": "machine-pistol",
+    "bulletSize":90,
+    "magazineSize":25
+  }
+]
