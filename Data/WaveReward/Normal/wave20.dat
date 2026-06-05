@@ -1,5 +1,5 @@
 {
-  "HPHeal": 30,
+  "HPHeal": 35,
   "GunUnlock": ["Uzi-Dual"],
   "Speech": ["success", "Our organisation is so proud that you survived this long, so they gifted you an extra Uzi, just in case... Anyhow, next wave will have some random luck based enemies. Good luck!"]
 }
