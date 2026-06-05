@@ -1,0 +1,14 @@
+[
+  "Thompson",
+  {
+    "range":75,
+    "dmg":9,
+    "rpm":1000,
+    "bulletSpeed":13,
+    "recoil":22,
+    "offset":35,
+    "type": "submachine-gun",
+    "bulletSize":110,
+    "magazineSize":50
+  }
+]
