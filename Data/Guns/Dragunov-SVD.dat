@@ -6,7 +6,7 @@
     "rpm":70,
     "bulletSpeed":20,
     "recoil":40,
-    "offset":35,
+    "offset":40,
     "type": "sniper",
     "bulletSize":90,
     "magazineSize":10
