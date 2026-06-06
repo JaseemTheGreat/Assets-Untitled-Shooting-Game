@@ -3,12 +3,12 @@
   {
     "range":65,
     "dmg":8,
-    "rpm":160,
-    "bulletSpeed":600,
+    "rpm":320,
+    "bulletSpeed":12,
     "recoil":10,
     "offset":35,
     "type": "pistol-dual",
     "bulletSize":80,
-    "magazineSize":17
+    "magazineSize":34
   }
 ]
