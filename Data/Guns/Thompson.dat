@@ -6,7 +6,7 @@
     "rpm":1000,
     "bulletSpeed":13,
     "recoil":22,
-    "offset":35,
+    "offset":45,
     "type": "submachine-gun",
     "bulletSize":110,
     "magazineSize":50
