@@ -2,8 +2,8 @@
   "M21",
   {
     "range":999,
-    "dmg":28,
-    "rpm":135,
+    "dmg":48,
+    "rpm":34,
     "bulletSpeed":10,
     "recoil":25,
     "offset":35,
