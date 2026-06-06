@@ -6,7 +6,7 @@
     "rpm":600,
     "bulletSpeed":15,
     "recoil":28,
-    "offset":35,
+    "offset":45,
     "type": "rifle",
     "bulletSize":115,
     "magazineSize":20
