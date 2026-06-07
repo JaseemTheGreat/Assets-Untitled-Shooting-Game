@@ -1,0 +1,10 @@
+[
+  "MysteryBoss",
+  {
+    "hp": "150",
+    "speed": "5",
+    "turnrate": "19",
+    "defense": "0",
+    "bossStatus": "0"
+  }
+]
