@@ -1,0 +1,10 @@
+[
+  "CemeteryApprentice",
+  {
+    "hp": 100,
+    "speed": 5,
+    "turnrate": 23,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
