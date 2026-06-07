@@ -140,7 +140,7 @@ These contain abilities the enemies can perform and the abilities data.
 | `["Punch", ["size", "dmg", "range"]]` | This is the usual ability most enemies use, the size of the punch shockwave, the damage and range is controlled by the second array |
 | `["Kick", ["size, "dmg", "range"]]` | basically like punch but much more faster |
 | `["Stomp", ["size", "dmg", "range", "frames"]]` | the Enemy raises their foot and get ready to stomp. frames represent the amount of costumes the ability has for that specific ability |
-| `["Summon", ["Spawntable", "amount", "Spawnrangefromabilitylocation", "chance", "typeofanim", "frames", "cooldown"]]` | You may pick the spawn tables from the spawn table, just pick the file name (NOT INCLUDING THE .DAT (ex. Necromancer.dat = Necromancer)), there are 3 typeofanim, "normal", the animation plays and it spawns the enemies. "each-anim-summon", the animation plays and a enemy spawns, this repeats until the end of the amount. And "null", no animation plays and the enemies just spawn. |
+| `["Summon", ["Spawntable", "chance", "amount", "Spawnrangefromabilitylocation", "typeofanim", "frames", "cooldown"]]` | You may pick the spawn tables from the spawn table, just pick the file name (NOT INCLUDING THE .DAT (ex. Necromancer.dat = Necromancer)), there are 3 typeofanim, "normal", the animation plays and it spawns the enemies. "each-anim-summon", the animation plays and a enemy spawns, this repeats until the end of the amount. And "null", no animation plays and the enemies just spawn. |
 
 Additional entries may exist for special animations or other abilities.
 
