@@ -1,1 +1,1 @@
-["Slash", [300, 40, 21, 9], "Summon", ["CryptWarden", 65, 8, 50, "each-anim-summon", 8, 60], "Block", [2, 75], "Charge", [8, 25], ]
+["Slash", [300, 40, 21, 9], "Summon", ["CryptWarden", 65, 8, 50, "each-anim-summon", 8, 60], "Block", [2, 75], "Charge", [8, 25], "Stomp", [110, 17, 18, 3]]
