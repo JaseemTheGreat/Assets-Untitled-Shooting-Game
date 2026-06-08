@@ -1,0 +1,10 @@
+[
+  "MimicSpeedy",
+  {
+    "hp": 25,
+    "speed": 9.5,
+    "turnrate": 25,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
