@@ -1,0 +1,10 @@
+[
+  "Undertaker",
+  {
+    "hp": 150,
+    "speed": 4.5,
+    "turnrate": 21,
+    "defense": 20,
+    "bossStatus": 0
+  }
+]
