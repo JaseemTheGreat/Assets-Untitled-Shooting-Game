@@ -1,0 +1,10 @@
+[
+  "MimicSlugger",
+  {
+    "hp": 50,
+    "speed": 4,
+    "turnrate": 18,
+    "defense": 15,
+    "bossStatus": 0
+  }
+]
