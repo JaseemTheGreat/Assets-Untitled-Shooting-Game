@@ -1,0 +1,10 @@
+[
+  "MysteryBossSummoner",
+  {
+    "hp": 950,
+    "speed": 3.5,
+    "turnrate": 17,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
