@@ -1,0 +1,10 @@
+[
+  "CryptWarden",
+  {
+    "hp": 8000,
+    "speed": 3,
+    "turnrate": 15,
+    "defense": 0,
+    "bossStatus": 1
+  }
+]
