@@ -1,10 +1,10 @@
 [
   "EliteRusher",
   {
-    "hp": "55",
-    "speed": "9.5",
-    "turnrate": "28",
-    "defense": "2",
-    "bossStatus": "0"
+    "hp": 55,
+    "speed": 9.5,
+    "turnrate": 28,
+    "defense": 2,
+    "bossStatus": 0
   }
 ]
