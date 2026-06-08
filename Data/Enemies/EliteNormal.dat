@@ -1,10 +1,10 @@
 [
   "EliteNormal",
   {
-    "hp": "70",
-    "speed": "7",
-    "turnrate": "22",
-    "defense": "0",
-    "bossStatus": "0"
+    "hp": 70,
+    "speed": 7,
+    "turnrate": 22,
+    "defense": 0,
+    "bossStatus": 0
   }
 ]
