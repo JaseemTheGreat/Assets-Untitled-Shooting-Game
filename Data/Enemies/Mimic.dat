@@ -1,0 +1,10 @@
+[
+  "Mimic",
+  {
+    "hp": 250,
+    "speed": 10.5,
+    "turnrate": 27,
+    "defense": 10,
+    "bossStatus": 0
+  }
+]
