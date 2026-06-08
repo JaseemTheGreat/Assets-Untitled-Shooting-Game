@@ -1,10 +1,10 @@
 [
   "MimicNormal",
   {
-    "hp": "40",
-    "speed": "6.5",
-    "turnrate": "20.5",
-    "defense": "0",
-    "bossStatus": "0"
+    "hp": 40,
+    "speed": 6.5,
+    "turnrate": 20.5,
+    "defense": 0,
+    "bossStatus": 0
   }
 ]
