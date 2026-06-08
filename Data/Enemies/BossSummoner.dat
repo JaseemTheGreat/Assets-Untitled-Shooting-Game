@@ -1,0 +1,10 @@
+[
+  "BossSummoner",
+  {
+    "hp": 1000,
+    "speed": 4,
+    "turnrate": 18,
+    "defense": 5,
+    "bossStatus": 0
+  }
+]
