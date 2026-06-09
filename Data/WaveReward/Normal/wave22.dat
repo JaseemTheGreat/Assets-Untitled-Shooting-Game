@@ -1,4 +1,4 @@
 {
   "HPHeal": 40,
-  "Speech": ["info", "Hey, just wanna let you know, you remember the last 2 bosses? They are coming with a tanky backup! You better prepare quickly"]
+  "Speech": ["warning", "Hey, just wanna let you know, you remember the last 2 bosses? They are coming with a tanky backup! You better prepare quickly"]
 }
