@@ -2,7 +2,7 @@
   "Uzi",
   {
     "range":60,
-    "dmg":1,
+    "dmg":5,
     "rpm":1200,
     "bulletSpeed":11,
     "recoil":12,
