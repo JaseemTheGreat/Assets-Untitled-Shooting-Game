@@ -2,7 +2,7 @@
   "Uzi-Dual",
   {
     "range":60,
-    "dmg":1,
+    "dmg":5,
     "rpm":2400,
     "bulletSpeed":11,
     "recoil":14,
