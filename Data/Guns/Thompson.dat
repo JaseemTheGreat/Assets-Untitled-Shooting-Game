@@ -2,7 +2,7 @@
   "Thompson",
   {
     "range":75,
-    "dmg":9,
+    "dmg":11,
     "rpm":1000,
     "bulletSpeed":13,
     "recoil":22,
