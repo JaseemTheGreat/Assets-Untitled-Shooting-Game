@@ -3,7 +3,7 @@
   {
     "range":125,
     "dmg":7,
-    "rpm":5000,
+    "rpm":4000,
     "bulletSpeed":15.5,
     "recoil":30,
     "offset":42.5,
