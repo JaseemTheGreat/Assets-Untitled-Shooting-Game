@@ -1,0 +1,14 @@
+[
+  "Executioner-Axe",
+  {
+    "range":9,
+    "dmg":45,
+    "rpm":90,
+    "bulletSpeed":8.5,
+    "recoil":-28,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":115,
+    "magazineSize":999
+  }
+]
