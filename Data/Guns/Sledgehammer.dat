@@ -1,0 +1,14 @@
+[
+  "Sledgehammer",
+  {
+    "range":8,
+    "dmg":145,
+    "rpm":30,
+    "bulletSpeed":10,
+    "recoil":35,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":130,
+    "magazineSize":999
+  }
+]
