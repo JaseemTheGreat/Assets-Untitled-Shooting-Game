@@ -1,0 +1,12 @@
+{
+  "OnHit": {
+    "Effects": [
+      [
+        "stun",
+        1,
+        2
+      ]
+    ]
+  },
+  "HitSound": "HeavyHit"
+}
