@@ -1,0 +1,14 @@
+[
+  "Upgraded-HK416",
+  {
+    "range":85,
+    "dmg":15,
+    "rpm":900,
+    "bulletSpeed":18,
+    "recoil":26,
+    "offset":38,
+    "type": "rifle",
+    "bulletSize":105,
+    "magazineSize":40
+  }
+]
