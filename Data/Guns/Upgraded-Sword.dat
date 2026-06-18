@@ -1,0 +1,14 @@
+[
+  "Upgraded-Sword",
+  {
+    "range":13,
+    "dmg":70,
+    "rpm":70,
+    "bulletSpeed":10,
+    "recoil":40,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":145,
+    "magazineSize":999
+  }
+]
