@@ -1,0 +1,14 @@
+[
+  "HK416",
+  {
+    "range":75,
+    "dmg":13,
+    "rpm":850,
+    "bulletSpeed":17,
+    "recoil":24,
+    "offset":38,
+    "type": "rifle",
+    "bulletSize":100,
+    "magazineSize":30
+  }
+]
