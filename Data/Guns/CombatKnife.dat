@@ -2,7 +2,7 @@
   "CombatKnife",
   {
     "range":4,
-    "dmg":30,
+    "dmg":20,
     "rpm":150,
     "bulletSpeed":7,
     "recoil":-25,
