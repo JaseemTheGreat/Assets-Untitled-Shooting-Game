@@ -1,0 +1,14 @@
+[
+  "Sword",
+  {
+    "range":12.5,
+    "dmg":50,
+    "rpm":50,
+    "bulletSpeed":9.5,
+    "recoil":35,
+    "offset":35,
+    "type": "melee",
+    "bulletSize":135,
+    "magazineSize":999
+  }
+]
