@@ -1,0 +1,14 @@
+[
+  "Upgraded-M134-Minigun",
+  {
+    "range":130,
+    "dmg":10,
+    "rpm":6000,
+    "bulletSpeed":17,
+    "recoil":30,
+    "offset":43.5,
+    "type": "machine-gun",
+    "bulletSize":100,
+    "magazineSize":350
+  }
+]
