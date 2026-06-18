@@ -6,7 +6,7 @@
     "rpm":6000,
     "bulletSpeed":17,
     "recoil":30,
-    "offset":43.5,
+    "offset":50,
     "type": "machine-gun",
     "bulletSize":100,
     "magazineSize":350
