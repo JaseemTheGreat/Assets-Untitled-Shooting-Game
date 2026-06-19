@@ -1,0 +1,10 @@
+[
+  "PistolSpecialist",
+  {
+    "hp": 150,
+    "speed": 7,
+    "turnrate": 21.5,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]

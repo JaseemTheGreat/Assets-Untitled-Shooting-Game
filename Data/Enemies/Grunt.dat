@@ -1,0 +1,10 @@
+[
+  "Grunt",
+  {
+    "hp": 100,
+    "speed": 6.5,
+    "turnrate": 21,
+    "defense": 0,
+    "bossStatus": 0
+  }
+]
