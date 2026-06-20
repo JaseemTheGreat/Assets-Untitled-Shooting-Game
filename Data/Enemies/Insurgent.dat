@@ -1,0 +1,10 @@
+[
+  "Insurgent",
+  {
+    "hp": 120,
+    "speed": 7.5,
+    "turnrate": 22,
+    "defense": 5,
+    "bossStatus": 0
+  }
+]
