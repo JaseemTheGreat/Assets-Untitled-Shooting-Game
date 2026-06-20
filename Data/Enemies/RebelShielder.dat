@@ -1,0 +1,10 @@
+[
+  "RebelShielder",
+  {
+    "hp": 150,
+    "speed": 5,
+    "turnrate": 21,
+    "defense": 15,
+    "bossStatus": 0
+  }
+]
