@@ -1,0 +1,10 @@
+[
+  "SergeantInsurgent",
+  {
+    "hp": 180,
+    "speed": 8.75,
+    "turnrate": 22.75,
+    "defense": 5,
+    "bossStatus": 0
+  }
+]
