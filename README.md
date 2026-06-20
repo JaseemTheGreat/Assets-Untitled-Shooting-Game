@@ -184,15 +184,16 @@ Gun data uses the following structure:
 [
   "GunName",
   {
-    "range": "value",
-    "dmg": "value",
-    "rpm": "value",
-    "bulletSpeed": "value",
-    "recoil": "value",
-    "offset": "value",
-    "type": "value",
-    "bulletSize": "value",
-    "magazineSize": "value"
+    "range": "float",
+    "dmg": "float",
+    "rpm": "integer",
+    "bulletSpeed": "float",
+    "recoil": "float",
+    "offset": "float",
+    "type": "string",
+    "bulletSize": "float",
+    "magazineSize": "float"
+    "weight": "float"
   }
 ]
 ```
@@ -211,6 +212,7 @@ Gun data uses the following structure:
 | `type` | Weapon type (`pistol`, `rifle`, `sniper`, `shotgun`, etc.) |
 | `bulletSize` | Projectile size |
 | `magazineSize` | Maximum ammo per magazine |
+| `weight` | The weight of the gun (impacts player movement, try not to exceed 4 as it will make "Civilian" hard to move with.) |
 
 ---
 

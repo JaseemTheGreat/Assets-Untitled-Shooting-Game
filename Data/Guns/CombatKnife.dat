@@ -9,6 +9,7 @@
     "offset":35,
     "type": "melee",
     "bulletSize":90,
-    "magazineSize":999
+    "magazineSize":999,
+    "weight": 0.1
   }
 ]

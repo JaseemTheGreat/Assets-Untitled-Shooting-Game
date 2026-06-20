@@ -9,6 +9,7 @@
     "offset":36.5,
     "type": "submachine-gun",
     "bulletSize":110,
-    "magazineSize":50
+    "magazineSize":50,
+    "weight": 1
   }
 ]

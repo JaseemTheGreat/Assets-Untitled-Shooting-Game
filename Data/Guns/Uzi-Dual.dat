@@ -9,6 +9,7 @@
     "offset":30,
     "type": "machine-pistol-dual",
     "bulletSize":90,
-    "magazineSize":50
+    "magazineSize":50,
+    "weight": 0.8
   }
 ]

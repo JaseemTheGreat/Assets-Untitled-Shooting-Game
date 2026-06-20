@@ -9,6 +9,7 @@
     "offset":40,
     "type": "sniper",
     "bulletSize":90,
-    "magazineSize":10
+    "magazineSize":10,
+    "weight": 1.5
   }
 ]

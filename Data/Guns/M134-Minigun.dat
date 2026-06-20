@@ -9,6 +9,7 @@
     "offset":48.5,
     "type": "machine-gun",
     "bulletSize":95,
-    "magazineSize":200
+    "magazineSize":200,
+    "weight": 3.5
   }
 ]

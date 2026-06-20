@@ -9,6 +9,7 @@
     "offset":45,
     "type": "rifle",
     "bulletSize":115,
-    "magazineSize":20
+    "magazineSize":20,
+    "weight": 1.25
   }
 ]

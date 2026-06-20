@@ -9,6 +9,7 @@
     "offset":35,
     "type": "pistol",
     "bulletSize":100,
-    "magazineSize":8
+    "magazineSize":8,
+    "weight": 0.2
   }
 ]

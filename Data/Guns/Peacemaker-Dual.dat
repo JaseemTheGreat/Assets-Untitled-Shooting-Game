@@ -9,6 +9,7 @@
     "offset":35,
     "type": "pistol-revolver-dual",
     "bulletSize":100,
-    "magazineSize":12
+    "magazineSize":12,
+    "weight": 0.6
   }
 ]
