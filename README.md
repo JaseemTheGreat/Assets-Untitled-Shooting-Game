@@ -140,7 +140,11 @@ These contain abilities the enemies can perform and the abilities data.
 | `["Punch", ["size", "dmg", "range"]]` | This is the usual ability most enemies use, the size of the punch shockwave, the damage and range is controlled by the second array |
 | `["Kick", ["size, "dmg", "range"]]` | basically like punch but much more faster |
 | `["Stomp", ["size", "dmg", "range", "frames"]]` | the Enemy raises their foot and get ready to stomp. frames represent the amount of costumes the ability has for that specific ability |
+| `["Slash", ["size", "dmg", "range", "frames", "extratags (optional)"]]` | These settings are self-explanatory, however, with extratags, here are the following. 1. windup (controls how many frames the windup will take.): `["windup", [1]]` |
 | `["Summon", ["Spawntable", "chance", "amount", "Spawnrangefromabilitylocation", "typeofanim", "frames", "cooldown"]]` | You may pick the spawn tables from the spawn table, just pick the file name (NOT INCLUDING THE .DAT (ex. Necromancer.dat = Necromancer)), there are 3 typeofanim, "normal", the animation plays and it spawns the enemies. "each-anim-summon", the animation plays and a enemy spawns, this repeats until the end of the amount. And "null", no animation plays and the enemies just spawn. |
+| `["Charge", ["speed multiplier", "dmg", "range"]]` | The ability is quite self explanatory and so is the settings for it. |
+| `["Block", ["block time", "dmg reduction (%)"]]` | `block time` controls how long the enemy will hold their block until deemed useless, failure to block will result in being slowed, and dmg reduction is self-explanatory, how much dmg the block reduces. (Note: dmg reduction and defense is NOT added, they are separated, so if they enter their block and the defense is usually higher than their block dmg reduction, they may take more dmg. It is advised you either add the percentage you want with the defense and use that, or at least make it much higher.) |
+
 
 Additional entries may exist for special animations or other abilities.
 

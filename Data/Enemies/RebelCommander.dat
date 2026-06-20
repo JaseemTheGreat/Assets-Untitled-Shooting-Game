@@ -1,0 +1,10 @@
+[
+  "RebelCommander",
+  {
+    "hp": 600,
+    "speed": 5.5,
+    "turnrate": 20,
+    "defense": 5,
+    "bossStatus": 0
+  }
+]
